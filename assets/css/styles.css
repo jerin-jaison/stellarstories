@@ -16916,3 +16916,11 @@ ul {
   color: var(--bs-dark);
   background-color: var(--bs-white);
 }/*# sourceMappingURL=styles.css.map */
+
+/* Fix for button being unclickable on mobile */
+@media (max-width: 767px) {
+  .hero-cta-link {
+    position: relative;
+    z-index: 100;
+  }
+}
